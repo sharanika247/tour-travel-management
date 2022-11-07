@@ -56,6 +56,8 @@ Route::prefix('admin')->group(function(){
     
     })->name('short.tour');
     
+
+    // user
    
     Route::get('/user', function () {
         return view('user.user');
