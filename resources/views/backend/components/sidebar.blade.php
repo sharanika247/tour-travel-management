@@ -5,7 +5,7 @@
                     <div class="logo"><a href="index.html">
                             <!-- <img src="images/logo.png" alt="" /> --><span>Admin</span></a></div>
                     
-                    <li><a href="{{route('/')}}"><i class="ti-home"></i> Dashboard <span
+                    <li><a href="{{route('admin.dashboard')}}"><i class="ti-home"></i> Dashboard <span
                                 
                                 class="sidebar-collapse-icon ti-angle-down"></span></a>
 
@@ -15,9 +15,9 @@
                     <li><a class="sidebar-sub-toggle"><i class="ti-panel"></i> Packages<span
                                 class="sidebar-collapse-icon ti-angle-down"></span></a>
                         <ul>
-                        <li><a href="{{route('all.tour')}}">All</a></li>
-                        <li><a href="{{route('long.tour')}}">Long Tour</a></li>
-                        <li><a href="{{route('short.tour')}}">Short Tour</a></li>
+                        <li><a href="{{route('package.alllist')}}">Type</a></li>
+                        <!-- <li><a href="{{route('package.longlist')}}">Long Tour</a></li>
+                        <li><a href="{{route('package.shortlist')}}">Short Tour</a></li> -->
                         </ul>
                           <!--  <li><a href="chart-flot.html">Flot</a></li>
                             <li><a href="chart-morris.html">Morris</a></li>
@@ -28,11 +28,13 @@
                             <li><a href="chart-knob.html">Knob</a></li>
                         </ul> -->
                     </li>
-                    <li><a href="{{route('booking.list')}}"><i class="ti-home"></i> Tour Booking<span
+                    <li><a href="{{route('package.details')}}"><i class="ti-view-list-alt"></i>Package Information</a></li> 
+                    <li><a href="{{route('booking.list')}}"><i class="ti-home"></i>Tour Booking</a></li> 
+                    <!-- <li><a href="{{route('booking.list')}}"><i class="ti-home"></i> Tour Booking<span
                                 
                                 class="sidebar-collapse-icon ti-angle-down"></span></a>
 
-                    </li>
+                    </li> -->
 
                    <!-- <li><a href="{{route('booking.list')}}">Tour Bookings </a></li>
                     <li><a href="app-email.html"><i class="ti-email"></i>Members</a></li> -->
@@ -83,23 +85,25 @@
                         </ul>
                     </li>
                     
-                       
-                    <li><a href="form-basic.html"><i class="ti-view-list-alt"></i> Basic Form </a></li>
-                    <li class="label">Extra</li>
+                      
+                     
+                    <!-- <li class="label">Extra</li>
                     <li><a class="sidebar-sub-toggle"><i class="ti-files"></i> Invoice <span
                                 class="sidebar-collapse-icon ti-angle-down"></span></a>
                         <ul>
                             <li><a href="invoice.html">Basic</a></li>
                             <li><a href="invoice-editable.html">Editable</a></li>
                         </ul>
-                    </li>
+                    </li> -->
                     <li><a class="sidebar-sub-toggle"><i class="ti-target"></i> Report <span
                                 class="sidebar-collapse-icon ti-angle-down"></span></a>
+
+<!--                                 
                         <ul>
                             <li><a href="page-login.html">Login</a></li>
                             <li><a href="page-register.html">Register</a></li>
                             <li><a href="page-reset-password.html">Forgot password</a></li>
-                        </ul>
+                        </ul> -->
                     </li>
                     
                     

@@ -37,11 +37,11 @@
     <div class="card">
                                 <div class="card-title">
                                    <div class="d-flex justify-content-between">
-                                   <h4>Booking List
+                                   <h4>User Booking List
                                                                            <span class="text-primary"> 16</span>
                                                                       
                                 </h4>
-                                   <a href="http://127.0.0.1:8000/dashboard/users/create" class="btn btn-primary"> <i class="ti-plus"></i> Add new User</a>
+                                   <!-- <a href="http://127.0.0.1:8000/dashboard/users/create" class="btn btn-primary"> <i class="ti-plus"></i> Add new User</a> -->
                                    </div>
                                     
                                 </div>
@@ -53,6 +53,7 @@
                                                     <th>#ID</th>
                                                     <th>Name</th>
                                                     <th>Email</th>
+                                                    <th>Package Name</th>
                                                     <th>Time</th>
                                                     <th p style="text-align: left">Booking Status</th>
                                                 </tr>
@@ -62,61 +63,72 @@
                                                 <th>1</th>
                                                     <th>Sharanika Das</th>
                                                     <th>kothamonydas@gmail.com</th>
+                                                    <th>Cox's Bazar</th>
                                                     <th>22 - Sep - Sun || 16 : 55 : 45 pm</th>
-                                                    
                                                     <th>
-                                                        <a href="" class="btn btn-primary"><span class="ti-plus"></span></a>
-                                                        <a href="" class="btn btn-primary"><span class="ti-pencil"></span></a>
-                                                        <a href="" class="btn btn-primary"><span class="ti-trash"></span></a>
+                                                        <a href="" class="btn btn-primary">Add</a>
+                                
+                                                        <a href="" class="btn btn-primary">Cancle</a>
                                                     </th>
+                                                    <!-- <th>
+                                                        <a href="" class="btn btn-primary"><span class="ti-plus"></span></a>
+                                                        <a href="" class="btn btn-primary"><span class="ti-pencil"></span></a
+                                                        <a href="" class="btn btn-primary"><span class="ti-trash"></span></a>
+                                                    </th> -->
                                                 </tr>
                                                                                                 <tr>
                                                 <th>2</th>
                                                     <th>Sharanika Das</th>
                                                     <th>sharanikadas12@gmail.com</th>
+                                                    <th>Shundarban</th>
                                                     <th>22 - Sep - Sun || 09 : 27 : 19 am</th>
                                                     
                                                     <th>
-                                                        <a href="" class="btn btn-primary"><span class="ti-plus"></span></a>
-                                                        <a href="" class="btn btn-primary"><span class="ti-pencil"></span></a>
-                                                        <a href="" class="btn btn-primary"><span class="ti-trash"></span></a>
+                                                        <a href="" class="btn btn-primary">Add</a>
+                                
+                                                        <a href="" class="btn btn-primary">Cancle</a>
                                                     </th>
                                                 </tr>
                                                                                                 <tr>
                                                 <th>3</th>
                                                     <th>kothamony das</th>
                                                     <th>sharanikadas344@gmail.com</th>
+                                                    <th>SajekValley</th>
                                                     <th>22 - Sep - Sun || 09 : 28 : 35 am</th>
                                                     
                                                     <th>
-                                                        <a href="" class="btn btn-primary"><span class="ti-plus"></span></a>
-                                                        <a href="" class="btn btn-primary"><span class="ti-pencil"></span></a>
-                                                        <a href="" class="btn btn-primary"><span class="ti-trash"></span></a>
+                                                        <a href="" class="btn btn-primary">Add</a>
+                                
+                                                        <a href="" class="btn btn-primary">Cancle</a>
                                                     </th>
                                                 </tr>
                                                                                                 <tr>
                                                 <th>4</th>
                                                     <th>Tonmoy Das</th>
                                                     <th>Tonmoydas@gmail.com</th>
+                                                    <th>Mainamati</th>
                                                     <th>22 - Sep - Sun || 09 : 29 : 32 am</th>
                                                     
                                                     <th>
-                                                        <a href="" class="btn btn-primary"><span class="ti-plus"></span></a>
-                                                        <a href="" class="btn btn-primary"><span class="ti-pencil"></span></a>
-                                                        <a href="" class="btn btn-primary"><span class="ti-trash"></span></a>
+                                                        <a href="" class="btn btn-primary">Add</a>
+                                
+                                                        <a href="" class="btn btn-primary">Cancle</a>
                                                     </th>
                                                 </tr>
                                                                                                 <tr>
                                                 <th>5</th>
                                                     <th>Tanmoy Ghosh</th>
                                                     <th>tanmoyghosh12@gmail.com</th>
+                                                    <th>Mahasthangar</th>
                                                     <th>22 - Sep - Sun || 09 : 30 : 20 am</th>
                                                     
+                                                    
                                                     <th>
-                                                        <a href="" class="btn btn-primary"><span class="ti-plus"></span></a>
-                                                        <a href="" class="btn btn-primary"><span class="ti-pencil"></span></a>
-                                                        <a href="" class="btn btn-primary"><span class="ti-trash"></span></a>
+                                                        <a href="" class="btn btn-primary">Add</a>
+                                
+                                                        <a href="" class="btn btn-primary">Cancle</a>
                                                     </th>
+                                                
                                                 </tr>
                                                                                             </tbody>
                                             

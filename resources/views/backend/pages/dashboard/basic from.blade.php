@@ -1,60 +1,54 @@
-<!DOCTYPE html>
-<html>
-<style>
-input[type=text], select {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-}
+@extends('backend.master')
+@section('main')
+<div class="row justify-content-center">
+                        <div class="col-lg-10">
+                            <div class="card">
+                                <div class="card-title">
+                                    <div class="d-flex justify-content-between">
+                                        <h4>Add New User Informations</h4>
+                                        <a href="http://127.0.0.1:8000/dashboard/users" class="btn btn-danger"> <i class="ti-angle-left"></i> Back</a>
+                                    </div>
+                                </div>
+                                <div class="card-body">
 
-input[type=submit] {
-  width: 100%;
-  background-color: #4CAF50;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-input[type=submit]:hover {
-  background-color: #45a049;
-}
-
-div {
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 20px;
-}
-</style>
-<body>
-
-<h3>Using CSS to style an HTML Form</h3>
-
-<div>
-  <form action="/action_page.php">
-    <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name..">
-
-    <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-
-    <label for="country">Country</label>
-    <select id="country" name="country">
-      <option value="australia">Australia</option>
-      <option value="canada">Canada</option>
-      <option value="usa">USA</option>
-      <option value="Bangladesh">Bangladesh</option>
-    </select>
-  
-    <input  type="submit" value="Submit">
-  </form>
-</div>
-
-</body>
-</html>
+                                                                                                    <div class="basic-form">
+                                        <form method="post" action="{{route('basic.store')}}">
+                                        @csrf
+                                           
+                                        <div class="form-group ">
+                                                <p class="text-muted m-b-15 f-s-12">Type Name</p>
+                                                <input type="text" value="" name="typename" class="form-control input-default " placeholder="Plz enter user name">
+                                                <span style="color:red;">
+                                                    <strong></strong>
+                                                </span>
+                                                
+                                            </div> 
+                                            <div class="form-group ">
+                                                <p class="text-muted m-b-15 f-s-12">Email</p>
+                                                <input type="email" name="email" class="form-control input-default " placeholder="Plz enter email">
+                                                <span style="color:red;">
+                                                    <strong></strong>
+                                                </span>
+                                            </div>
+                                            <div class="form-group ">
+                                                <p class="text-muted m-b-15 f-s-12">Details</p>
+                                                <input type="text" name="typedetails" class="form-control input-default " placeholder="type details">
+                                                
+                                            </div>
+                                            <!-- <div class="form-group ">
+                                                <p class="text-muted m-b-15 f-s-12">Confrim PassWord</p>
+                                                <input type="password" name="password_confirmation" class="form-control input-default " placeholder="Plz enter confrimpassword">
+                                                <span style="color:red;">
+                                                    <strong></strong>
+                                                </span>
+                                            </div> -->
+                                            <div>
+                                                <button type="submit" class="btn btn-success">Submit Now</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                  
+                    @endsection            

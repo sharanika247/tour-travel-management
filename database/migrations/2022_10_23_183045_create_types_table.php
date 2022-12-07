@@ -17,9 +17,10 @@ return new class extends Migration
             $table->id();
             $table->string('name');
             $table->longText('details')->nullable();
-            $table->int('date');
+            $table->datetime('package_start_date');
+            $table->datetime('package_end_date');
             $table->boolean('status')->default(1);
-            $table->timestamps();
+            $table->timestamps(); 
         });
     }
 

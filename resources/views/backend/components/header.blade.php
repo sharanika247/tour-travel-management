@@ -141,7 +141,7 @@
                                                             ...</div>
                                                     </div>
                                                 </a>
-                                            </li>-->
+                                            </li>
                                             <li class="text-center">
                                                 <a href="#" class="more-link">See All</a>
                                             </li>
@@ -168,7 +168,7 @@
 
                                             
                                             <li>
-                                                <a href="#">
+                                                <a href="{{route('package.alllist')}}">
                                                     <i class="ti-settings"></i>
                                                     <span>Setting</span>
                                                 </a>
@@ -176,10 +176,12 @@
 
                                            
                                             <li>
-                                                <a href="#">
+                                                 <a href="{{route('welcome')}}">
                                                     <i class="ti-power-off"></i>
                                                     <span>Logout</span>
                                                 </a>
+
+                                                <!-- <a href="{{route('user.booking')}}" class="ti-power-off"><b>Logout</b></a> -->
                                             </li>
                                         </ul>
                                     </div>

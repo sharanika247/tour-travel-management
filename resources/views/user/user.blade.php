@@ -30,12 +30,13 @@
     
 @include('user.pages.component.topbar')
 @include('user.pages.component.navbar')
-<img src="{{asset('image/tour.jpg')}}" alt="image" width="100%" height="900">
+
 
  <section id="main-content">
                     {{-- main body --}}
                     @yield('main')
                     {{--  main body end --}}
+                    
 
                      {{-- footer start --}}
                     @include('user.pages.component.footer')
@@ -43,12 +44,7 @@
                 </section> 
 
 
-{{-- <!-- @include('user.pages.about')  
-@include('user.pages.feature')  
-@include('user.pages.packages')  
-@include('user.pages.registration') 
-@include('user.pages.team') 
-@include('user.pages.footer') -->  --}}
+
     <!-- Back to Top -->
     <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="fa fa-angle-double-up"></i></a>
 
